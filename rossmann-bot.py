@@ -108,7 +108,7 @@ def index():
         
         if store_id != 'error':
             # loadind data
-            data = load_dataset(store_id)
+            data = loading_dataset(store_id)
             
             if data != 'error':
                 # prediction
