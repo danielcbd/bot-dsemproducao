@@ -65,8 +65,7 @@ def predict(data):
 
     # API call
     # url = 'http://127.0.0.1:5000/rossmann/predict'
-    # url = 'https://rossmann-project-api.onrender.com/rossmann/predict'
-    url = 'https://teste-rossmann-api-whlz.onrender.com/rossmann/predict'
+    url = 'https://rossmann-project-api.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json'}
     data = data
     
